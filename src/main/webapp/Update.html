@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Stylesheet.css">
+<script type="text/javascript" src="update.js"></script>
+<title>update Student Details</title>
+</head>
+<body>
+<b id='sd'>STUDENT DETAILS</b><br>
+	<form id="updateid" method = "post">
+		<input type="hidden" name="method" value="put">
+		ID:<br/>
+		<input type="number" name="sid" id='id'>
+		<div id='enterid'></div>
+		Name:<input type="text" name='name1' id='name1'>
+		<div id="nameull"></div>
+		DOB:<input type="date" name='dob' id='dob'>
+		<div id="validdate"></div>
+		Phone:<input type="tel" name='phone' id='phone'>
+		<div id="validphone"></div>
+		<input type="submit" class="but">
+		<input type="reset" class="but">
+		<div id="result"></div>
+	</form>
+	<h2><a href="Index.html">HOME</a></h2>
+</body>
+</html>
